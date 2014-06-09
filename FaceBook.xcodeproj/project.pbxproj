@@ -19,6 +19,8 @@
 		96DEC03D19416A1900CA61F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DEC02519416A1900CA61F7 /* UIKit.framework */; };
 		96DEC04519416A1900CA61F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96DEC04319416A1900CA61F7 /* InfoPlist.strings */; };
 		96DEC04719416A1900CA61F7 /* FaceBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DEC04619416A1900CA61F7 /* FaceBookTests.m */; };
+		96DEC05319416A8200CA61F7 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DEC05119416A8200CA61F7 /* PostViewController.m */; };
+		96DEC05419416A8200CA61F7 /* PostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96DEC05219416A8200CA61F7 /* PostViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		96DEC04219416A1900CA61F7 /* FaceBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceBookTests-Info.plist"; sourceTree = "<group>"; };
 		96DEC04419416A1900CA61F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96DEC04619416A1900CA61F7 /* FaceBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookTests.m; sourceTree = "<group>"; };
+		96DEC05019416A8200CA61F7 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostViewController.h; path = ../PostViewController.h; sourceTree = "<group>"; };
+		96DEC05119416A8200CA61F7 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostViewController.m; path = ../PostViewController.m; sourceTree = "<group>"; };
+		96DEC05219416A8200CA61F7 /* PostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PostViewController.xib; path = ../PostViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				96DEC03019416A1900CA61F7 /* AppDelegate.h */,
 				96DEC03119416A1900CA61F7 /* AppDelegate.m */,
+				96DEC05019416A8200CA61F7 /* PostViewController.h */,
+				96DEC05119416A8200CA61F7 /* PostViewController.m */,
+				96DEC05219416A8200CA61F7 /* PostViewController.xib */,
 				96DEC03319416A1900CA61F7 /* Images.xcassets */,
 				96DEC02819416A1900CA61F7 /* Supporting Files */,
 			);
@@ -221,6 +229,7 @@
 			files = (
 				96DEC02C19416A1900CA61F7 /* InfoPlist.strings in Resources */,
 				96DEC03419416A1900CA61F7 /* Images.xcassets in Resources */,
+				96DEC05419416A8200CA61F7 /* PostViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			files = (
 				96DEC03219416A1900CA61F7 /* AppDelegate.m in Sources */,
 				96DEC02E19416A1900CA61F7 /* main.m in Sources */,
+				96DEC05319416A8200CA61F7 /* PostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +449,7 @@
 				96DEC04C19416A1900CA61F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96DEC04D19416A1900CA61F7 /* Build configuration list for PBXNativeTarget "FaceBookTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +458,7 @@
 				96DEC04F19416A1900CA61F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
